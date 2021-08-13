@@ -1,0 +1,35 @@
+remote_theme: pmarsceill/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+title: Beemo Docs
+email: ayu@ayu.dev
+description: Beemo is a free antispam Discord Bot that can stop userbot raids against your server.
+github_username: AyuAi
+
+aux_links:
+  "Beemo.gg":
+    - "https://beemo.gg/"
+  "Discord":
+    - "https://beemo.gg/discord"
+  "GitHub":
+    - "https://github.com/AyuAi/beemo-docs"
+    
+color_scheme: dark
+
+gh_edit_link: true
+gh_edit_link_text: "Edit on GitHub"
+gh_edit_repository: "https://github.com/AyuAi/beemo-docs"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 6
+  preview_words_after: 6
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
